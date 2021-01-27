@@ -10,7 +10,7 @@
     "serve:app": "yarn workspace @monitoring/app run serve",
     "build": "lerna run build && lerna link",
     "lint": "lerna run lint",
-    "publish:lib": "lerna publish --ignore-changes @monitoring/app"
+    "publish:lib": "lerna publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",
