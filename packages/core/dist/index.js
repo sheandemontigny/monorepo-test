@@ -25,6 +25,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (Vue.openBlock(), Vue.createBlock(_component_v_btn, {
     type: "button",
+    color: "red",
     onClick: _cache[1] || (_cache[1] = $event => (_ctx.click()))
   }, {
     default: Vue.withCtx(() => [
