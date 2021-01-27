@@ -2,6 +2,9 @@
   "name": "@monitoring/core",
   "version": "1.0.3",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
@@ -16,5 +19,5 @@
     "vue": "^2.6.11",
     "vuetify": "^2.4.0"
   },
-  "gitHead": "7c54dfd3231efe84d9c5a3690c5a4e07dc008a7c"
+  "gitHead": "62910cd9185feb638fd9a36c4c7af90eb5b105a6"
 }
