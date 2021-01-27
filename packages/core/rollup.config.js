@@ -6,15 +6,11 @@ export default {
   input: "src/index.ts",
   output: [
     {
-      format: "cjs",
-      file: packageJson.main,
-      sourcemap: true,
-    },
-    {
       format: "esm",
       file: packageJson.module,
       sourcemap: true,
     },
   ],
+  external: ["vue"],
   plugins: [vue(), ts()],
 };

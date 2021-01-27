@@ -31,9 +31,29 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 script.render = render;
 script.__file = "src/components/MButton.vue";
 
+var script$1 = Vue.extend({
+    name: "m-text",
+    data: () => ({
+        count: 0
+    }),
+    methods: {
+        click() {
+            this.count += 1;
+        }
+    }
+});
+
+function render$1(_ctx, _cache, $props, $setup, $data, $options) {
+  return (openBlock(), createBlock("div", null, "SOME TEXT"))
+}
+
+script$1.render = render$1;
+script$1.__file = "src/components/Text.vue";
+
 const plugin = {
     install(Vue) {
         Vue.component("MButton", script);
+        Vue.component("MText", script$1);
     },
 };
 
