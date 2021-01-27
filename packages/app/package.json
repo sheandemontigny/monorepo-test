@@ -1,6 +1,6 @@
 {
   "name": "@monitoring/app",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@monitoring/core": "*",
+    "@monitoring/core": "^1.0.1",
     "register-service-worker": "^1.7.1",
     "vue-router": "^3.2.0",
     "vuetify": "^2.4.0",
