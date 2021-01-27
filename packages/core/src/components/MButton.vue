@@ -1,5 +1,5 @@
 <template>
-  <button type="button" @click="click()"><slot />{{ count }}</button>
+  <v-btn type="button" @click="click()"><slot />{{ count }}</v-btn>
 </template>
 
 <script lang="ts">

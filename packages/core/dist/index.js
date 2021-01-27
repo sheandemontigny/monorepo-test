@@ -21,17 +21,29 @@ var script = Vue__default['default'].extend({
 });
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (Vue.openBlock(), Vue.createBlock("button", {
+  const _component_v_btn = Vue.resolveComponent("v-btn");
+
+  return (Vue.openBlock(), Vue.createBlock(_component_v_btn, {
     type: "button",
     onClick: _cache[1] || (_cache[1] = $event => (_ctx.click()))
-  }, [
-    Vue.renderSlot(_ctx.$slots, "default"),
-    Vue.createTextVNode(Vue.toDisplayString(_ctx.count), 1 /* TEXT */)
-  ]))
+  }, {
+    default: Vue.withCtx(() => [
+      Vue.renderSlot(_ctx.$slots, "default"),
+      Vue.createTextVNode(Vue.toDisplayString(_ctx.count), 1 /* TEXT */)
+    ]),
+    _: 3 /* FORWARDED */
+  }))
 }
 
 script.render = render;
 script.__file = "src/components/MButton.vue";
 
+const plugin = {
+    install(Vue) {
+        Vue.component("MButton", script);
+    },
+};
+
 exports.MButton = script;
+exports.default = plugin;
 //# sourceMappingURL=index.js.map
