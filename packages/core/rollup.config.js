@@ -11,6 +11,6 @@ export default {
       sourcemap: true,
     },
   ],
-  external: ["vue"],
+  external: ["vue", "vuetify/lib"],
   plugins: [vue(), ts()],
 };

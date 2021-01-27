@@ -1,7 +1,9 @@
 import Vue from 'vue';
+import { VBtn } from 'vuetify/lib';
 
 var script = Vue.extend({
     name: "m-button",
+    components: { VBtn },
     data: () => ({
         count: 0
     }),

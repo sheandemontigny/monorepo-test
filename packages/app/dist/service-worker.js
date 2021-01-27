@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cd8fe4282b3b6db1317f9eca10fc90d0.js"
+  "/precache-manifest.4a2e7e68275f0f65a81825028c05a139.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "@monitoring-softdb/app"});
