@@ -15,5 +15,6 @@
   "peerDependencies": {
     "vue": "^2.6.11",
     "vuetify": "^2.4.0"
-  }
+  },
+  "gitHead": "b731171c70d473b9bfc8642838e03a87303598c5"
 }

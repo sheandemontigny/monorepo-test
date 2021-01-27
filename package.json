@@ -9,7 +9,8 @@
     "postinstall": "lerna bootstrap",
     "serve:app": "yarn workspace @monitoring/app run serve",
     "build": "lerna run build && lerna link",
-    "lint": "lerna run lint"
+    "lint": "lerna run lint",
+    "publish:lib": "lerna publish --ignore-changes @monitoring/app"
   },
   "dependencies": {
     "core-js": "^3.6.5",
