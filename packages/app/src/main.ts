@@ -4,7 +4,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
-import core from "@monitoring/core";
+import core from "@monitoring-softdb/core";
 
 Vue.config.productionTip = false;
 

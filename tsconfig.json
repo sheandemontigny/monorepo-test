@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "@monitoring/core": ["core/src"]
+      "@monitoring-softdb/core": ["core/src"]
     }
   }
 }

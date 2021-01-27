@@ -1,5 +1,5 @@
 {
-  "name": "@monitoring/core",
+  "name": "@monitoring-softdb/core",
   "version": "1.0.4",
   "private": false,
   "publishConfig": {
@@ -19,5 +19,5 @@
     "vue": "^2.6.11",
     "vuetify": "^2.4.0"
   },
-  "gitHead": "62910cd9185feb638fd9a36c4c7af90eb5b105a6"
+  "gitHead": "f6012febb802829bb6d150120b268c730af625d7"
 }
