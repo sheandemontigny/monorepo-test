@@ -1,5 +1,5 @@
 {
-  "name": "@monitoring-softdb/core",
+  "name": "@soft-db/core",
   "version": "1.0.8",
   "private": false,
   "publishConfig": {

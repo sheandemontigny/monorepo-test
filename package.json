@@ -1,5 +1,5 @@
 {
-  "name": "@monitoring-softdb/app",
+  "name": "@soft-db/app",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "serve:app": "yarn workspace @monitoring/app run serve",
+    "serve:app": "yarn workspace @soft-db/app run serve",
     "build": "lerna run build && lerna link",
     "lint": "lerna run lint",
     "publish:lib": "lerna publish"
